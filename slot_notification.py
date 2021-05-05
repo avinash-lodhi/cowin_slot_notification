@@ -7,7 +7,7 @@ import os
 from datetime import date, timedelta
 from email.message import EmailMessage
 
-URL = "https://cdn-api.co-vin.in/api"
+URL = "https://cowin.gov.in/api"
 
 def send_request(url):
     response = requests.get(url,timeout=10,headers={"accept": "application/json"})
